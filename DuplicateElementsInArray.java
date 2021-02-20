@@ -19,6 +19,7 @@ public class DuplicateElementsInArray {
         for (int no : arr){
             if (s.add(no)== false){
                 System.out.println(no);
+                //break; -> if we need to find 1st duplicate element in array.
             }
         }  
     }
